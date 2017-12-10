@@ -18,7 +18,7 @@
               <placeholder/>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="btnQuit">
                 <property name="label" translatable="yes">Quit</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
@@ -59,7 +59,7 @@
                 <property name="can_focus">False</property>
                 <property name="layout_style">spread</property>
                 <child>
-                  <object class="GtkEntry">
+                  <object class="GtkEntry" id="entryCommand">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                   </object>
@@ -70,7 +70,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkComboBoxText">
+                  <object class="GtkComboBoxText" id="cmbOption">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <items>
@@ -85,7 +85,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton">
+                  <object class="GtkButton" id="btnRun">
                     <property name="label" translatable="yes">Run</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
