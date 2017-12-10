@@ -1,0 +1,10 @@
+[package]
+name = "Advance_File_Explorer"
+version = "0.1.0"
+authors = ["luke"]
+
+[dependencies]
+[dependencies.gtk]
+version = "0.3.0"
+features = ["v3_10"]
+
